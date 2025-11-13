@@ -1,0 +1,89 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+}
+
+/* header styles */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu-top {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #262626;
+    margin-bottom: 68px;
+    margin-top: 58px;
+}
+
+.menu-item {
+    font-size: 24px;
+    width: 218px;
+    margin-bottom: 0px;
+}
+
+.menu-side {
+    width: 45%;
+}
+
+.shopping-cart {
+    margin-bottom: 0px;
+}
+
+.menu-bottom {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #262626;
+    margin-bottom: 44px;
+}
+
+/* top styles */
+
+.top {
+    background: linear-gradient(180deg, #b3d9f3 0%, rgba(207, 255, 229, 0.7) 27.88%, rgba(249, 229, 238, 0.8) 73.56%);
+    height: 843px;
+
+}
+
+.top-back {
+    background-image: url(image/macarons.png);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-since {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: #272727;
+    margin-bottom: 0;
+}
+
+.top-heading {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 64px;
+    color: #262626;
+    margin: 9px 0 25px 0;
+}
+
+.top-subtext {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #262626;
+    margin-top: 0;
+}
