@@ -2,6 +2,25 @@
     --font-family: "Montserrat", sans-serif;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.vk {
+    margin: 0 53px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-padding {
+    padding-left: 30px;
+}
+
 /* header styles */
 
 .header {
@@ -13,7 +32,7 @@
     list-style-type: none;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .menu-top {
@@ -22,7 +41,6 @@
     font-size: 32px;
     color: #262626;
     margin-bottom: 68px;
-    margin-top: 58px;
 }
 
 .menu-item {
@@ -31,8 +49,12 @@
     margin-bottom: 0px;
 }
 
-.menu-side {
+.menu-side-right {
     width: 45%;
+}
+
+.menu-side-left {
+    width: 38%;
 }
 
 .shopping-cart {
