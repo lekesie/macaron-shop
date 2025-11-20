@@ -109,3 +109,49 @@
     color: #262626;
     margin-top: 0;
 }
+
+/* our proposals. */
+
+.our-proposals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    background: #f9e5ee;
+    justify-content: center;
+}
+
+.proposals-item {
+    display: flex;
+    width: 911px;
+    gap: 30px;
+    padding: 27px 49px 19px 49px;
+    background: #ffffff;
+    border-radius: 25px;
+}
+
+.proposals-item img {
+    width: 257px;
+    height: 257px;
+}
+
+.proposals-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 35px;
+    color: #262626;
+}
+
+.proposals-subtext {
+    font-size: 32px;
+}
+
+.proposals-headtext {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.card1 {
+    background-image: url(image/cards/card1back.svg);
+
+    background-size: cover;
+}
