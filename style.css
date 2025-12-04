@@ -2,6 +2,10 @@
     --font-family: "Montserrat", sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .container {
     margin: 0 auto;
     /* max-width: 1600px; */
@@ -10,6 +14,7 @@
 .social-media {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .vk {
@@ -17,6 +22,7 @@
 }
 
 .logo {
+    width: 20%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -34,6 +40,7 @@
 }
 
 .menu {
+    padding-left: 15px;
     list-style-type: none;
     display: flex;
     width: 100%;
@@ -43,7 +50,7 @@
 .menu-top {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 25px;
     color: #262626;
     margin-bottom: 68px;
 }
@@ -55,7 +62,7 @@
 }
 
 .menu-side-right {
-    width: 45%;
+    width: 40%;
 }
 
 .menu-side-left {
@@ -69,7 +76,7 @@
 .menu-bottom {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     color: #262626;
     margin-bottom: 44px;
 }
@@ -94,7 +101,7 @@
 .top-since {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     color: #272727;
     margin-bottom: 0;
 }
@@ -102,7 +109,7 @@
 .top-heading {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 64px;
+    font-size: 60px;
     color: #262626;
     margin: 9px 0 25px 0;
 }
@@ -110,7 +117,7 @@
 .top-subtext {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 26px;
     color: #262626;
     margin-top: 0;
 }
@@ -192,12 +199,14 @@
 
 .sales {
     background-color: #f8eaf1;
+    padding-bottom: 20px;
 }
 
 .sales-box {
     display: grid;
     grid-template-columns: repeat(3, 30%);
     gap: 30px;
+    justify-content: center;
 
 }
 
@@ -249,4 +258,89 @@
     left: 50%;
     bottom: 25px;
     transform: translateX(-50%);
+}
+
+/* news */
+
+.news {
+    background: linear-gradient(180deg, #f8eaf1 0%, rgba(207, 255, 229, 0.6) 39.36%, #b3d9f3 100%);
+    padding: 20px 0;
+
+}
+
+.news-box {
+    background-image: url(image/cards/macarons.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: contain;
+}
+
+.news-heading {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 60px;
+    color: #262626;
+    background-image: url(image/news/line.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 99%;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.news-item {
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    width: 70%;
+    border-radius: 15px;
+    flex-direction: row-reverse;
+}
+
+.news-item img {
+    width: 27%;
+}
+
+.news-text {
+    padding-left: 39px;
+}
+
+.news-headtext {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 35px;
+    color: #262626;
+}
+
+.news-subtext {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+}
+
+.news-date {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    color: #262626;
+}
+
+.news-button {
+    background: #cfffe5;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: #262626;
+    border: none;
+    border-radius: 15px;
+    padding: 30px 260px;
+    margin: 50px;
 }
